@@ -78,7 +78,6 @@ int main(int argc, char *argv[])
 
 /*
 for compile
-gcc filename.c -pthread
-server : ./a.out port number
-clients : ./a.out username port number
+g++ -pthread client.cpp -o client
+./client portnumber
 */
