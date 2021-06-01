@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	int their_sock;
 	int their_addr_size;
 	int portno;
-	pthread_t sendt,recvt;
+	pthread_t recvt;
 	char msg[500];
 	char username[100];
 	char res[600];
