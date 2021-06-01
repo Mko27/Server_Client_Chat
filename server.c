@@ -69,7 +69,7 @@ int main(int argc,char *argv[])
 	int their_sock;
 	socklen_t their_addr_size;
 	int portno;
-	pthread_t recvt;
+	pthread_t sendt,recvt;
 	char msg[500];
 	int len;
 	struct client_info cl;
