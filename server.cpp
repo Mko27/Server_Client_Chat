@@ -117,6 +117,6 @@ int main(int argc,char *argv[])
 
 /*
 for compile
-g++ -pthread server.cpp
-./serve portnumber
+g++ -pthread server.cpp -o server
+./server portnumber
 */
